@@ -13,8 +13,8 @@ hexToRgb() {
 	printf "%d, %d, %d" 0x${plain:0:2} 0x${plain:2:2} 0x${plain:4:2}
 }
 
-background=$(hexToRgb $color2)
-foreground=$(hexToRgb $color5)
+background=$(hexToRgb $background)
+foreground=$(hexToRgb $foreground)
 accent=$(hexToRgb $color11)
 secondary=$(hexToRgb $color8)
 
